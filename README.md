@@ -1,6 +1,6 @@
 # Volatility Forecasting Pipeline: GARCH + Machine Learning
 
-This project implements a hybrid pipeline to forecast the next-day volatility of financial assets (currently crude oil, symbol `CL=F`). It combines **statistical modeling (GARCH)** and **machine learning (Random Forest Regressor)** to generate accurate volatility predictions.
+This project implements a pipeline to forecast the next-day volatility of financial assets (currently crude oil, symbol `CL=F`). As well as plot the predictions of a engineered Random Forest Model against the actual volatility of crude oil, as well as the predictions from GARCH. It then prints the error for each model compared to the real volatility, and prints the forecasted volatility for tomorrow.
 
 ---
 
